@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/css/style.css">
+    <script crossorigin src="./style/js/react.js"></script>  
+    <script crossorigin src="./style/js/reactDOM.js"></script>
+    <script src="./style/js/babel.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <div id="app"></div>
+    <script type="text/babel">
+        var root = document.getElementById('root')
+        const app = (
+            <div className = "warp">
+                <div className="header">Header</div>
+                <div className="container">container</div>
+                <div className="footer">footer</div>
+            </div>
+        )
+        ReactDOM.render(app , document.getElementById("app"))
+    </script>
+</body>
+</html>
