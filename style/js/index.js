@@ -40,7 +40,7 @@ function Slide() {
     var text
     return (
     <div id="slider">
-        <img id = "img" src={'/style/img/'+image[1]} />
+        <img id = "img" src='/style/img/chiago.jpg' />
         <div id="text-conten">
             <h2 class="text-heading">NEW YORK</h2>
             <div class="TEXT">the atmosphere in New York it lorem ipsum.</div>
